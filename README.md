@@ -31,4 +31,4 @@ define('__TYPECHO_SECURE__',TRUE);
 
 ## MYSQL管理
 
-可以看到docker-compose中mysql镜像时暴露出了13306端口到127.0.0.1，可以通过ssh代理登录13306端口进行管理，也可以安装一个phpadmin的容器连接上，看自己方便啦！
+可以看到docker-compose中mysql镜像时暴露出了3306端口到127.0.0.1，可以通过ssh代理登录13306端口进行管理，也可以安装一个phpadmin的容器连接上，看自己方便啦！
